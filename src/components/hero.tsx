@@ -46,7 +46,7 @@ export default function Hero() {
   return (
     <section
       id="home"
-      className="flex px-6 pt-28 xl:pt-0 h-screen md:h-[720px] xl:h-screen bg-slate-100 dark:bg-dark0 transition-colors duration-300"
+      className="flex px-6 pt-28 xl:pt-0 h-[800px] md:h-[720px] xl:h-screen bg-slate-100 dark:bg-dark0 transition-colors duration-300"
     >
       {/* Container */}
       <div className="grid grid-cols-1 xl:grid-cols-2 max-w-2xl md:max-w-3xl xl:max-w-6xl mx-auto items-center">
@@ -111,7 +111,7 @@ export default function Hero() {
               ref={linkRef}
               initial={{ opacity: 0, y: 50 }}
               animate={linkInView ? { opacity: 1, y: 0 } : {}}
-              transition={{ duration: 0.8, delay: 0.4, ease: "easeOut" }}
+              transition={{ duration: 0.8, delay: 0.2, ease: "easeOut" }}
               className="flex items-center space-x-4 xl:space-x-6 mt-8"
             >
               <button

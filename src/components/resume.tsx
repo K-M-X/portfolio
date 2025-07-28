@@ -16,7 +16,7 @@ export default function Resume() {
   // Intersection observer for animations
   const { ref: titleRef, inView: titleInView } = useInView({
     triggerOnce: true,
-    threshold: 0.2,
+    threshold: 0.6,
   });
   const { ref: tabRef, inView: tabInView } = useInView({
     triggerOnce: true,
